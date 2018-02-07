@@ -332,7 +332,7 @@ public class Mail {
 
        
 
-        // 最后当然就是发送邮件啦
+        
         Transport.send(message);
 		*/
 	
