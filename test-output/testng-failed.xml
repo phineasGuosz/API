@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="testFilePath" value="Excel/test.xlsx"/>
+  <parameter name="reslutFilePath" value="H:/APIreport"/>
+  <test name="test(failed)">
+    <parameter name="testFilePath" value="Excel/test.xlsx"/>
+    <parameter name="reslutFilePath" value="H:/APIreport"/>
+    <classes>
+      <class name="com.baiwang.apitest.Client">
+        <methods>
+          <include name="run" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.baiwang.apitest.Client -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

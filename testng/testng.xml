@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+	
+	<test verbose="2" name="test">
+		<parameter name="testFilePath" value="Excel/fifteenth.xlsx"></parameter>
+		<parameter name="reslutFilePath" value="Result"></parameter>
+		
+		<classes>
+			<class name="com.baiwang.apitest.Test" />
+		</classes>
+	</test>
+	
+</suite>
